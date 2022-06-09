@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExpenseTrackerSystem">
         <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
             android:name=".PieChartIncome"
             android:exported="true" />
         <activity
