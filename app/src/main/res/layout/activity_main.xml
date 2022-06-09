@@ -8,15 +8,6 @@
     tools:context=".MainActivity">
 
 
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Don't have an Account?\nRegister here."
-        android:onClick="register"
-        android:layout_marginTop="10dp"
-        android:textAlignment="center"
-        android:layout_gravity="center_horizontal" />
     <FrameLayout
         android:id="@+id/flFragment"
         android:layout_width="match_parent"
