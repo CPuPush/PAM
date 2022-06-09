@@ -19,7 +19,7 @@
         <activity
             android:name=".Login"
             android:exported="false" />
-        <activity android:name=".fragments.Success" />
+        <activity android:name=".Success" />
         <activity
             android:name=".PieChartIncome"
             android:exported="true" />

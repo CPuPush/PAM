@@ -52,7 +52,7 @@
                 android:layout_marginTop="15dp"
                 android:textAllCaps="false"
                 android:textSize="15dp"
-                android:id="@+id/btn_nav"
+                android:id="@+id/signin"
                 />
 
         </LinearLayout>
@@ -77,8 +77,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sign Up"
+                android:onClick="register"
                 android:textSize="15dp"
-                android:id="@+id/tv_register"/>
+                android:id="@+id/register"/>
 
         </LinearLayout>
 

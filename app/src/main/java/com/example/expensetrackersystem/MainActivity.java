@@ -1,5 +1,6 @@
 package com.example.expensetrackersystem;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -11,6 +12,8 @@ import com.example.expensetrackersystem.fragments.Expense;
 import com.example.expensetrackersystem.fragments.Income;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import java.util.Currency;
+
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
     BottomNavigationView bottomNavigationView;
 
@@ -18,6 +21,11 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Intent myIntent = new Intent(this,Login.class);
+        MainActivity.this.startActivity(myIntent);
+
+
 
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
 
