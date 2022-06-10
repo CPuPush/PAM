@@ -35,20 +35,22 @@
         <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/layout/layout_income_item2.xml" value="0.176" />
         <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/layout/register.xml" value="0.12158054711246201" />
         <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/layout/success.xml" value="0.12158054711246201" />
+        <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/drawable/bg_rounded_input_field.xml" value="0.206" />
+        <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/font/bungee_inline.xml" value="0.28020833333333334" />
         <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/activity_login.xml" value="0.12158054711246201" />
         <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/activity_main.xml" value="0.12158054711246201" />
         <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/activity_pie_chart.xml" value="0.12158054711246201" />
         <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/activity_pie_chart_income.xml" value="0.12158054711246201" />
         <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/activity_register.xml" value="0.12158054711246201" />
-        <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/expense_add_item.xml" value="0.12158054711246201" />
-        <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/fragment_dashboard.xml" value="0.176" />
-        <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/fragment_expense.xml" value="0.12158054711246201" />
+        <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/expense_add_item.xml" value="0.2" />
+        <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/fragment_dashboard.xml" value="0.264" />
+        <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/fragment_expense.xml" value="0.264" />
         <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/fragment_income.xml" value="0.12158054711246201" />
         <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/income_add_litem.xml" value="0.12158054711246201" />
-        <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/layout_expense_item.xml" value="0.12158054711246201" />
-        <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/layout_expense_item2.xml" value="0.12158054711246201" />
-        <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/layout_income_item.xml" value="0.12158054711246201" />
-        <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/layout_income_item2.xml" value="0.12158054711246201" />
+        <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/layout_expense_item.xml" value="0.6" />
+        <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/layout_expense_item2.xml" value="0.264" />
+        <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/layout_income_item.xml" value="0.536" />
+        <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/layout_income_item2.xml" value="0.264" />
         <entry key="..\:/xampp/htdocs/PAM/app/src/main/res/layout/success.xml" value="0.12158054711246201" />
       </map>
     </option>

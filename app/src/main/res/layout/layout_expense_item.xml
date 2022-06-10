@@ -12,8 +12,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cv_url"
-            android:layout_width="130dp"
-            android:layout_height="130dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
             app:cardCornerRadius="16dp"
             app:cardElevation="4dp">
 
@@ -30,8 +30,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="Job"
+                    android:fontFamily="@font/ralewaybold"
                     android:textColor="@color/black"
-                    android:textSize="18sp"
+                    android:textSize="17sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -39,10 +40,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
+                    android:fontFamily="@font/latoregular"
                     android:text="Rp. 7000"
                     android:textColor="@color/black"
-                    android:textSize="22sp"
-                    android:textStyle="bold" />
+                    android:textSize="17sp" />
 
                 <TextView
                     android:id="@+id/tv_expenseDate"
@@ -50,8 +51,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="June 28, 2019"
+                    android:fontFamily="@font/ralewaysemibold"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="15sp"
                     android:textStyle="bold" />
 
             </LinearLayout>

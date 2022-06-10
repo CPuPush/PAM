@@ -13,6 +13,7 @@
             android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:text="Jun 28,2019"
+            android:fontFamily="@font/ralewayregular"
             android:textColor="@color/light_green"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -24,6 +25,7 @@
             android:layout_marginLeft="28dp"
             android:layout_toRightOf="@id/tv_incomeDate"
             android:text="Job"
+            android:fontFamily="@font/ralewayregular"
             android:textColor="@color/textColor"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -36,6 +38,7 @@
             android:layout_marginLeft="28dp"
             android:layout_toRightOf="@id/tv_incomeDate"
             android:text="Extra Income"
+            android:fontFamily="@font/ralewaysemibold"
             android:textColor="@color/textColor"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -47,6 +50,7 @@
             android:layout_alignParentEnd="true"
             android:layout_marginRight="24dp"
             android:text="4800"
+            android:fontFamily="@font/ralewaysemibold"
             android:textColor="@color/light_green"
             android:textSize="20sp"
             android:textStyle="bold" />

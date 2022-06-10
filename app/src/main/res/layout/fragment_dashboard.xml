@@ -14,9 +14,10 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="20dp"
         android:textAlignment="center"
+        android:fontFamily="@font/suki"
         android:text="@string/title"
         android:textColor="@color/black"
-        android:textSize="32sp" />
+        android:textSize="50dp" />
 
     <TextView
         android:id="@+id/tv_text2"
@@ -27,8 +28,9 @@
         android:layout_marginTop="15dp"
         android:layout_marginBottom="20dp"
         android:text="Dashboard"
+        android:fontFamily="@font/ralewaymedium"
         android:textColor="@color/black"
-        android:textSize="28sp" />
+        android:textSize="24dp" />
 
     <LinearLayout
         android:id="@+id/rl"
@@ -52,7 +54,7 @@
                 android:fontFamily="@font/bungee_inline"
                 android:text="Income"
                 android:textColor="@color/light_green"
-                android:textSize="24sp" />
+                android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/tv_income"
@@ -60,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:text="Rp. 10000.00"
                 android:textColor="@color/light_green"
-                android:textSize="24sp" />
+                android:textSize="20sp" />
 
         </LinearLayout>
 
@@ -77,7 +79,7 @@
                 android:fontFamily="@font/bungee_inline"
                 android:text="Expense"
                 android:textColor="@color/light_red"
-                android:textSize="24sp" />
+                android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/tv_expense"
@@ -85,7 +87,7 @@
                 android:layout_height="wrap_content"
                 android:text="Rp. 10000.00"
                 android:textColor="@color/light_red"
-                android:textSize="24sp" />
+                android:textSize="20dp" />
 
         </LinearLayout>
 
@@ -99,8 +101,9 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="30dp"
         android:text="Income:"
+        android:fontFamily="@font/ralewayregular"
         android:textColor="@color/textColor"
-        android:textSize="24sp" />
+        android:textSize="20dp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_income"
