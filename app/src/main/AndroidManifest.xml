@@ -16,10 +16,11 @@
         android:usesCleartextTraffic="true">
         <activity
             android:name=".RegisterActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
+            android:name=".MainActivity"
+            android:exported="true"/>
+
         <activity
             android:name=".PieChartIncome"
             android:exported="true" />
@@ -27,7 +28,7 @@
             android:name=".PieChart"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

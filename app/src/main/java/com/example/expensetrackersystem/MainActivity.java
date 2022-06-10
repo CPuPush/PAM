@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent myIntent = new Intent(this,LoginActivity.class);
-        MainActivity.this.startActivity(myIntent);
+//        Intent myIntent = new Intent(this,LoginActivity.class);
+//        MainActivity.this.startActivity(myIntent);
 
 
 

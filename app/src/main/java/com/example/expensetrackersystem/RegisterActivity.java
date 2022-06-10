@@ -1,5 +1,4 @@
 package com.example.expensetrackersystem;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -37,16 +36,16 @@ public class RegisterActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_register);
 
         preferenceHelper = new PreferenceHelper(this);
 
-        if(preferenceHelper.getIsLogin()){
-            Intent intent = new Intent(RegisterActivity.this,LoginActivity.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-            startActivity(intent);
-            this.finish();
-        }
+//        if(preferenceHelper.getIsLogin()){
+//            Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
+//            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+//            startActivity(intent);
+//            this.finish();
+//        }
 
         etname = (EditText) findViewById(R.id.etname);
         ethobby = (EditText) findViewById(R.id.ethobby);
@@ -59,7 +58,7 @@ public class RegisterActivity extends AppCompatActivity {
         tvlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(RegisterActivity.this,LoginActivity.class);
+                Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
                 startActivity(intent);
                 RegisterActivity.this.finish();
             }
@@ -131,7 +130,7 @@ public class RegisterActivity extends AppCompatActivity {
             saveInfo(response);
 
             Toast.makeText(RegisterActivity.this, "Registered Successfully!", Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(RegisterActivity.this, RegisterActivity.class);
+            Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
             this.finish();
