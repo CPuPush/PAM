@@ -10,11 +10,29 @@
         <entry key="..\:/Kuliah/Semester 6/11S3211 PAM/2/PAM/app/src/main/res/layout/register.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 6/11S3211 PAM/2/PAM/app/src/main/res/layout/success.xml" value="0.20416666666666666" />
         <entry key="..\:/Kuliah/Semester 6/11S3211 PAM/2/PAM/app/src/main/res/xml/network_security_config.xml" value="0.1" />
-        <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/font/bungee_inline.xml" value="0.1" />
+        <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/drawable-v24/tab_color.xml" value="0.1" />
+        <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/drawable/add.xml" value="0.1" />
+        <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/drawable/bg_rounded_input_field.xml" value="0.1" />
+        <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/drawable/ic_baseline_pie_chart_24.xml" value="0.1" />
+        <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/drawable/menu.xml" value="0.1" />
+        <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/drawable/minus.xml" value="0.1" />
+        <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/font/bungee_inline.xml" value="0.16" />
         <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/layout/activity_pie_chart.xml" value="0.1" />
+        <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/layout/activity_pie_chart_income.xml" value="0.12158054711246201" />
         <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/layout/activity_register.xml" value="0.1274062816616008" />
+        <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/layout/expense_add_item.xml" value="0.2" />
+        <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/layout/fragment_dashboard.xml" value="0.264" />
+        <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/layout/fragment_expense.xml" value="0.12158054711246201" />
+        <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/layout/fragment_income.xml" value="0.176" />
+        <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/layout/income_add_litem.xml" value="0.12158054711246201" />
+        <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/layout/layout_expense_item.xml" value="0.12158054711246201" />
+        <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/layout/layout_expense_item2.xml" value="0.12158054711246201" />
+        <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/layout/layout_income_item.xml" value="0.12158054711246201" />
+        <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/layout/layout_income_item2.xml" value="0.176" />
         <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/layout/register.xml" value="0.12158054711246201" />
         <entry key="..\:/PEMROGRAMAN/Android/PAM/app/src/main/res/layout/success.xml" value="0.12158054711246201" />
       </map>

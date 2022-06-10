@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@color/white"
     tools:context=".fragments.Income">
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="20dp"
-        android:text="ProjectGurukul"
+        android:text="@string/title"
         android:textColor="@color/white"
         android:textSize="32sp" />
 
@@ -47,7 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/bungee_inline"
-                android:text="Expense"
+                android:text="Income"
                 android:textColor="@color/light_green"
                 android:textSize="24sp" />
 
@@ -55,7 +55,7 @@
                 android:id="@+id/tv_income"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rs. 10000.00"
+                android:text="Rp. 10000.00"
                 android:textColor="@color/light_green"
                 android:textSize="24sp" />
 

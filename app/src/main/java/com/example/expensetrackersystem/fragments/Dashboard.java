@@ -150,7 +150,7 @@ public class Dashboard extends Fragment {
             total += Integer.parseInt(model.getAmount());
         }
         totalExpense = String.valueOf(total);
-        tv_expense.setText("₹" + totalExpense);
+        tv_expense.setText("Rp " + totalExpense);
 
         expenseAdapter = new expenseAdapter(getContext(), expenseModelList);
         rv_expense.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false));
@@ -167,7 +167,7 @@ public class Dashboard extends Fragment {
             total += Integer.parseInt(model.getAmount());
         }
         totalIncome = String.valueOf(total);
-        tv_income.setText("₹" + totalIncome);
+        tv_income.setText("Rp " + totalIncome);
 
         incomeAdapter = new incomeAdapter(getContext(), incomeModelList);
         rv_income.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false));

@@ -11,8 +11,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="20dp"
-        android:text="ProjectGurukul"
-        android:textColor="@color/white"
+        android:text="@string/title"
+        android:textColor="@color/black"
         android:textSize="32sp" />
 
     <TextView
@@ -24,7 +24,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginBottom="20dp"
         android:text="Pie Chart Expense"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="28sp" />
 
     <lecho.lib.hellocharts.view.PieChartView
