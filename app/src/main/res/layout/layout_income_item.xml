@@ -20,7 +20,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/light_green"
+                android:background="@color/prim"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -30,9 +30,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="Job"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="17sp"
-                    android:fontFamily="@font/ralewaybold"
+                    android:fontFamily="@font/latoregular"
+                    android:textStyle="bold"
                     />
 
                 <TextView
@@ -41,8 +42,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="Rp. 7000"
-                    android:textColor="@color/black"
-                    android:textSize="17sp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
                     android:fontFamily="@font/latoregular"/>
 
                 <TextView
@@ -51,10 +52,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="June 28, 2019"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/ralewaysemibold"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/latoregular"
                     android:textSize="15sp"
-                    android:textStyle="bold" />
+                    android:textStyle="normal" />
 
             </LinearLayout>
 

@@ -7,6 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="prim">#2A9D8F</color>
+    <color name="colar">#F46A61</color>
 
     <color name="background">#FFFFFFFF</color>
     <color name="textColor">#FF000000</color>
@@ -15,6 +17,7 @@
 
     <color name="blue">#3500D3</color>
     <color name="grey">#808080</color>
+    <color name="light_grey">#959392</color>
     <color name="dark_grey">#2D2D2D</color>
     <color name="darker_grey">#080808</color>
 

@@ -8,27 +8,14 @@
     tools:context=".fragments.Dashboard">
 
     <TextView
-        android:id="@+id/tv_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
-        android:textAlignment="center"
-        android:fontFamily="@font/suki"
-        android:text="@string/title"
-        android:textColor="@color/black"
-        android:textSize="50dp" />
-
-    <TextView
         android:id="@+id/tv_text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tv_text"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="20dp"
-        android:text="Dashboard"
         android:fontFamily="@font/ralewaymedium"
+        android:text="Hello!"
         android:textColor="@color/black"
         android:textSize="24dp" />
 
@@ -98,10 +85,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/rl"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="30dp"
+        android:fontFamily="@font/latoregular"
         android:text="Income:"
-        android:fontFamily="@font/ralewayregular"
         android:textColor="@color/textColor"
         android:textSize="20dp" />
 
@@ -119,11 +106,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/rv_income"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="30dp"
         android:text="Expense:"
+        android:fontFamily="@font/latoregular"
         android:textColor="@color/textColor"
-        android:textSize="24sp" />
+        android:textSize="20dp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_expense"

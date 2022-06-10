@@ -7,33 +7,10 @@
     android:background="@color/white"
     tools:context=".fragments.Income">
 
-    <TextView
-        android:id="@+id/tv_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/title"
-        android:textColor="@color/white"
-        android:textSize="32sp" />
-
-    <TextView
-        android:id="@+id/tv_text2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tv_text"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="20dp"
-        android:text="Income"
-        android:textColor="@color/white"
-        android:textSize="28sp" />
-
     <RelativeLayout
         android:id="@+id/rr"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tv_text2">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:id="@+id/ll"

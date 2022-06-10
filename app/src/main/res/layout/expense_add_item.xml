@@ -129,7 +129,7 @@
             android:layout_marginRight="8dp"
             android:fontFamily="@font/ralewaybold"
             android:layout_weight="1"
-            android:background="@drawable/bg_rounded_input_field"
+            android:background="@drawable/shape_save"
             android:text="Save"
             android:textAllCaps="false"
             android:textColor="@color/white"

@@ -1,51 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    android:gravity="center"
-    android:orientation="vertical">
+    tools:context=".MainActivity"
+    android:background="@color/white">
 
-    <EditText
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:id="@+id/etusername"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
-        android:paddingLeft="5dp"
-        android:background="#fff"
-        android:hint="Enter Username" />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:id="@+id/etpassword"
-        android:inputType="textPassword"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
-        android:paddingLeft="5dp"
-        android:background="#fff"
-        android:hint="Enter Password" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn"
-        android:text="Login"
-        android:background="@color/white"
-        android:textColor="#fff"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:id="@+id/tvreg"
-        android:gravity="center"
-        android:layout_marginTop="10dp"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:text="Guest? Register here"/>
+        android:layout_height="match_parent"
+        android:id="@+id/cd_white"
+        android:padding="30dp">
 
-</LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Welcome Back"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/ralewaysemibold"
+            android:textColor="@color/prim"
+            android:id="@+id/tv_login"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Please sign in to continue"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/ralewaymedium"
+            android:textColor="@color/prim" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Username"
+                android:textSize="15dp"
+                android:paddingRight="20dp"
+                android:background="@drawable/shape"
+                android:textColorHint="@color/black"
+                android:fontFamily="@font/ralewaymedium"
+                android:paddingLeft="10dp"
+                android:id="@+id/etusername"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Password"
+                android:textSize="15dp"
+                android:paddingRight="20dp"
+                android:background="@drawable/shape"
+                android:textColorHint="@color/black"
+                android:fontFamily="@font/ralewaymedium"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:inputType="textPassword"
+                android:id="@+id/etpassword"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign In"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/prim"
+                android:textAllCaps="false"
+                android:fontFamily="@font/ralewaymedium"
+                android:textSize="15dp"
+                android:id="@+id/btn"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="450dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_marginBottom="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account? "
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:fontFamily="@font/ralewaymedium"
+                android:textColorHint="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:textSize="15dp"
+                android:textColor="@color/prim"
+                android:fontFamily="@font/ralewaysemibold"
+                android:id="@+id/tvreg"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
