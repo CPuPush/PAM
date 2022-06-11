@@ -40,12 +40,6 @@ public class RegisterActivity extends AppCompatActivity {
 
         preferenceHelper = new PreferenceHelper(this);
 
-//        if(preferenceHelper.getIsLogin()){
-//            Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
-//            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-//            startActivity(intent);
-//            this.finish();
-//        }
 
         etname = (EditText) findViewById(R.id.etname);
         ethobby = (EditText) findViewById(R.id.ethobby);
