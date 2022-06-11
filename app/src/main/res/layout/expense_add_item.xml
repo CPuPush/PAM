@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_weight="2"
-            android:fontFamily="@font/ralewayregular"
+            android:fontFamily="@font/latoregular"
             android:text="Amount: "
             android:textColor="@color/textColor"
             android:textSize="20sp" />
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
-            android:fontFamily="@font/ralewayregular"
+            android:fontFamily="@font/latoregular"
             android:layout_weight="3"
             android:hint="amount"
             android:inputType="number"
@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_weight="2"
-            android:fontFamily="@font/ralewayregular"
+            android:fontFamily="@font/latoregular"
             android:text="Type: "
             android:textColor="@color/textColor"
             android:textSize="20sp" />
@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
-            android:fontFamily="@font/ralewayregular"
+            android:fontFamily="@font/latoregular"
             android:layout_weight="3"
             android:hint="type"
             android:textColor="@color/textColor"
@@ -81,7 +81,7 @@
             android:layout_marginLeft="8dp"
             android:layout_weight="2"
             android:text="Note: "
-            android:fontFamily="@font/ralewayregular"
+            android:fontFamily="@font/latoregular"
             android:textColor="@color/textColor"
             android:textSize="20sp" />
 
@@ -93,7 +93,7 @@
             android:layout_marginRight="8dp"
             android:layout_weight="3"
             android:hint="note"
-            android:fontFamily="@font/ralewayregular"
+            android:fontFamily="@font/latoregular"
             android:textColor="@color/textColor"
             android:textSize="20sp" />
 

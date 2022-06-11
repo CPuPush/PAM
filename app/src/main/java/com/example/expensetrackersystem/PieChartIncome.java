@@ -74,11 +74,15 @@ public class PieChartIncome extends AppCompatActivity {
         pieData = new ArrayList<>();
 
         ArrayList<Integer> colors = new ArrayList<Integer>();
-        colors.add(Color.MAGENTA);
-        colors.add(Color.BLUE);
-        colors.add(Color.YELLOW);
-        colors.add(Color.RED);
-        colors.add(Color.GREEN);
+        colors.add(Color.parseColor("#EF5DA8"));
+        colors.add(Color.parseColor("#5D5FEF"));
+        colors.add(Color.parseColor("#2A9D8F"));
+        colors.add(Color.parseColor("#60CEE7"));
+        colors.add(Color.parseColor("#EC33CE"));
+        colors.add(Color.parseColor("#F46A61"));
+        colors.add(Color.parseColor("#F4A261"));
+        colors.add(Color.parseColor("#D7C255"));
+        colors.add(Color.parseColor("#1C1B1E"));
 
         for (String type : xData) {
             pieData.add(new SliceValue(Float.parseFloat(map.get(type)), colors.get(i % 5)).setLabel(type));
